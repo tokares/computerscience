@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="komputer, IT," content="Implant prosthetics">
+	<title>Implant prosthetics</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="galeria.js"></script>
+</head>
+<body>
+ 
+	
+	<a href="frame2.html"><img id="home" src="home.jpg" alt="HOME"> </a> 
+	<center>
+	<h2>Implant prosthetics</h2>
+		
+	
+	
+	<img id="obraz" src="implantprosthetics.jpg" title="Implant prosthetics"  >
+	</center>
+	
+	
+	
+		<div id="tekst">
+			<div id="tekst2">
+			<h4>Implant prosthetics deals with implant-supported prosthetic restoration. A dental implant is a surgical component that 
+			interfaces with the bone of the jaw or skull to support a dental prosthesis such as a crown, bridge, denture, 
+			facial prosthesis or to act as an orthodontic anchor. Prostheses can be created by hand or with computer-aided design,
+			a software interface that helps creators design and analyze the creation with computer-generated 2-D and 3-D graphics as 
+			well as analysis and optimization tools.</h4>
+			</div>
+		</div>
+	
+	
+	<center><iframe id="film"  src="https://www.youtube.com/embed/BaUDPo0EtSM"> </iframe></center>
+	
+	
+<center>
+<script>
+
+	var galeria = new Galeria('galeria', new Array(
+		new Array('implant1.jpg', 'implant1.jpg', 'Implant 1', 'Opis'),
+		
+		new Array('implant2.jpg', 'implant2.jpg', 'Implant 2', 'Opis'),
+		
+		new Array('implant3.jpg', 'implant3.jpg', 'Implant 3', 'Opis'),
+		
+		new Array('implant4.jpg', 'implant4.jpg', 'Implant 4', 'Opis'),
+		
+		new Array('implant5.jpg', 'implant5.jpg', 'Implant 5', 'Opis'),
+		
+		new Array('implant6.jpg', 'implant6.jpg', 'Implant 6', 'Opis')
+		
+));
+</script>
+
+</center>
+
+
+<SCRIPT LANGUAGE= "JavaScript" type= "text/javascript">
+function wyswietlDane()
+{
+  var data = new Date();
+  var godziny = data.getHours();
+  var minuty = data.getMinutes();
+  var sekundy = data.getSeconds();
+  var czas = godziny;
+  czas += ((minuty < 10) ? ":0" : ":") + minuty;
+  czas += ((sekundy < 10) ? ":0" : ":") + sekundy;
+  var miesiac = data.getMonth() + 1;
+  if (miesiac < 9){
+    miesiac = "0" + miesiac;
+  }
+  var dzien = data.getDate();
+  if (dzien < 9){
+    dzien = "0" + dzien;
+  }
+  var rok = data.getYear();
+  if (rok < 1000){
+    rok = 2000 + rok - 100;
+  }
+  var dzisiaj = dzien + "." + miesiac + "." + rok;
+
+  var dzienTygodnia = data.getDay();
+  switch(dzienTygodnia){
+    case 0: dzienTygodnia = "niedziela"; break;
+    case 1: dzienTygodnia = "poniedziałek"; break;
+    case 2: dzienTygodnia = "wtorek"; break;
+    case 3: dzienTygodnia = "środa"; break;
+    case 4: dzienTygodnia = "czwartek"; break;
+    case 5: dzienTygodnia = "piątek"; break;
+    case 6: dzienTygodnia = "sobota"; break;
+  }
+
+  var tekst = "Dziś jest " + dzienTygodnia + ", " + dzisiaj;
+  tekst += "<BR>";
+  tekst += czas;
+  document.getElementById("dataLayer").innerHTML = tekst;
+  timerID = setTimeout("wyswietlDane()",1000);
+}
+</SCRIPT>
+</HEAD>
+<BODY onLoad="wyswietlDane()" bgcolor="Gainsboro">
+<DIV ID="dataLayer" ></DIV>
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

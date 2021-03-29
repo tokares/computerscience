@@ -1,0 +1,161 @@
+
+body 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: black;
+	background-color: #90A4AE;
+	margin: 6mm;
+}
+
+#table1 
+{
+	text-align: center; 
+	font-size: 30px;
+	font-family: Arial; 
+	border-style: solid;  
+	border-width: 10px;
+	border-color: #CC0033;
+	color: black;
+	border-spacing: 2px;
+
+}
+
+#table2
+{
+	background-color: #CC0033;
+	width="798" ;
+	border="0" ;
+	cellspacing="12" ;
+}
+
+
+#table3
+{
+	border-style: solid;
+	border-width: 12px; 
+	border-color:#CC0033
+}
+
+#tr
+{
+	background-color:#CC0033
+}
+
+
+
+#film
+{
+	allow="accelerometer; 
+	autoplay; 
+	clipboard-write; 
+	encrypted-media; 
+	gyroscope; 
+	picture-in-picture; 
+	allowfullscreen; 
+	border-style:solid;  
+	border-width: 12px; 
+	border-color:#CC0033;
+	width: 560px;
+	height: 315px;
+}
+
+
+#obraz
+{
+	border-style:solid;  
+	border-width: 12px; 
+	border-color:#CC0033;
+}
+
+
+#home
+{
+	width: 100px ;
+	height: 100px ;
+	float: right ;
+}
+
+#tekst
+{
+	max-width:1000px;
+	margin:0 
+	auto;
+}
+
+#tekst2
+{
+	border:0px 
+	solid black; height:100px;
+	background:#gray; 
+	text-align: justify
+}
+
+#mini
+{
+	width: 250px;
+	height: 188px;
+}
+
+#td1
+{
+	height: 150px;
+	font-size: 24px;
+}
+#td2
+{
+	height: 625px;
+	background-color:#CC0033;
+}
+
+#div2
+{
+	text-align:center; 
+	margin-left:auto; 
+	margin-right:auto; 
+	width:800px;  
+	font-family:Arial
+}
+
+#dataLayer
+{
+	visibility: visible; 
+	color: black; 
+	font-weight:bold; 
+	font-family:Segoe Print; 
+	font-size: 14px; 
+	position: static;
+	bottom: 30px;
+	left: 15px;
+}
+	
+.galeria {
+	text-align: center;
+}
+
+.galeria table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.galeria td {
+	padding: 5px 5px 10px 5px;
+}
+
+.galeria td img {
+	border: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+pre, code {
+	font-size: 8pt;
+}
